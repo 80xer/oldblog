@@ -11,7 +11,7 @@ language: korean
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://log-80xer.rhcloud.com/
+url: http://www.80xer.com/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -67,6 +67,6 @@ theme: landscape
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type: github
-  repo: git@github.com:80xer/hexoblog.git
-  branch: gh-pages
+  type: git
+  repo: git@github.com:80xer/80xer.github.com.git
+  branch: master
