@@ -81,7 +81,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2016/01/25/asp-net5-and-angular-js/">Microsoft Visual Studio Community 2015 에서 ASP.NET 5, Web API, Angular.js, Grunt, Bower 사용하기</a>
+      <a class="article-title" href="/2016/01/25/asp-net5-and-angular-js/">Microsoft Visual Studio Community 2015 에서 ASP.NET 5, Web API, Angular.js, Grunt, Bower 사용하기(업데이트중)</a>
     </h1>
   
 
@@ -89,14 +89,57 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p><a href="http://proudmonkey.azurewebsites.net/asp-net-5-jump-start-to-angularjs-with-mvc-6-web-api/" target="_blank" rel="external">ASP.NET 5: Jump Start to AngularJS with MVC 6 Web API</a>를<br>preview가 아닌 정식버전 ASP.NET5로 따라하기.</p>
-<p>asp.net5를 사용하기 위해 visual studio community 2015 버전을 설치했다.(<a href="https://www.visualstudio.com/downloads/download-visual-studio-vs?&amp;WT.srch=1&amp;WT.mc_ID=SEM_yewnJZUr" target="_blank" rel="external">다운로드</a>)</p>
-<h3 id="ASP-NET_5__uD504_uB85C_uC81D_uD2B8_uB97C__uC0DD_uC131_uD558_uAE30"><a href="#ASP-NET_5__uD504_uB85C_uC81D_uD2B8_uB97C__uC0DD_uC131_uD558_uAE30" class="headerlink" title="ASP.NET 5 프로젝트를 생성하기."></a>ASP.NET 5 프로젝트를 생성하기.</h3><p>VS를 실행하고 <strong>파일&gt;새로만들기&gt;프로젝트</strong> 메뉴를 통해 <strong>새 프로젝트</strong> 대화창을 띄웠다.<br>좌측 템플릿 분류에서 <strong>설치됨&gt;템플릿&gt;Visual C#&gt;웹</strong> 을 선택하고 중앙에서 <strong>ASP.NET 웹 응용프로그램</strong>을 선택.<br>하단에 프로젝트 이름으로 <strong>AngularJS</strong> 를 입력하고 <strong>확인</strong>!<br><img src="/_images/16012501-새프로젝트.png" alt="새 프로젝트 창"><br>이어서 <strong>새 ASP.NET 프로젝트</strong> 창이 뜨면 좌측에서 ASP.NET 5 템플릿을 선택하면 되는데… ASP.NET 5 템플릿 아래에는 <strong>Get ASP.NET 5 RC</strong> 라는 것만 있다. 클릭하면 ASP.NET 5 템플릿을 다운로드 한다. 약간의 시간이 걸렸다.<br>다운로드가 완료되면 같은 곳에 <strong>Empty</strong>, <em>Web API<strong>, </strong>Web Application<strong> 세가지 템플릿이 존재한다.<br>Web API를 선택하고 </strong>확인*</em>을 클릭하면 기본 WebAPI의 뼈대를 갖춘 프로젝트가 생성된다.</p>
-<h3 id="Scripts__uD3F4_uB354_uC640_Models__uD3F4_uB354_uB97C__uCD94_uAC00_uD558_uAE30"><a href="#Scripts__uD3F4_uB354_uC640_Models__uD3F4_uB354_uB97C__uCD94_uAC00_uD558_uAE30" class="headerlink" title="Scripts 폴더와 Models 폴더를 추가하기."></a>Scripts 폴더와 Models 폴더를 추가하기.</h3><h3 id="uD328_uD0A4_uC9C0__uB9E4_uB2C8_uC800_uB97C__uC774_uC6A9_uD574__uD544_uC694_uD55C__uD328_uD0A4_uC9C0_uB4E4_uC744__uC124_uCE58_uD558_uAE30"><a href="#uD328_uD0A4_uC9C0__uB9E4_uB2C8_uC800_uB97C__uC774_uC6A9_uD574__uD544_uC694_uD55C__uD328_uD0A4_uC9C0_uB4E4_uC744__uC124_uCE58_uD558_uAE30" class="headerlink" title="패키지 매니저를 이용해 필요한 패키지들을 설치하기."></a>패키지 매니저를 이용해 필요한 패키지들을 설치하기.</h3><h3 id="Grunt__uC124_uC815_uD558_uAE30"><a href="#Grunt__uC124_uC815_uD558_uAE30" class="headerlink" title="Grunt 설정하기."></a>Grunt 설정하기.</h3><h3 id="ASP-NET_MVC__uC124_uC815_uD558_uAE30"><a href="#ASP-NET_MVC__uC124_uC815_uD558_uAE30" class="headerlink" title="ASP.NET MVC 설정하기."></a>ASP.NET MVC 설정하기.</h3><h3 id="uBAA8_uB378__uCD94_uAC00_uD558_uAE30"><a href="#uBAA8_uB378__uCD94_uAC00_uD558_uAE30" class="headerlink" title="모델 추가하기."></a>모델 추가하기.</h3>
+        <p><a href="http://proudmonkey.azurewebsites.net/asp-net-5-jump-start-to-angularjs-with-mvc-6-web-api/" target="_blank" rel="external">ASP.NET 5: Jump Start to AngularJS with MVC 6 Web API</a>를 preview가 아닌 정식버전 ASP.NET5로 따라하기.</p>
+<p>asp.net5를 사용하기 위해 visual studio community 2015 버전을 설치한다.(<a href="https://www.visualstudio.com/downloads/download-visual-studio-vs?&amp;WT.srch=1&amp;WT.mc_ID=SEM_yewnJZUr" target="_blank" rel="external">다운로드</a>)</p>
+<h3 id="ASP-NET_5__uD504_uB85C_uC81D_uD2B8_uB97C__uC0DD_uC131_uD558_uAE30"><a href="#ASP-NET_5__uD504_uB85C_uC81D_uD2B8_uB97C__uC0DD_uC131_uD558_uAE30" class="headerlink" title="ASP.NET 5 프로젝트를 생성하기."></a>ASP.NET 5 프로젝트를 생성하기.</h3><p>VS를 실행하고 <strong>파일&gt;새로만들기&gt;프로젝트</strong> 메뉴를 통해 <strong>새 프로젝트</strong> 대화창을 띄운다.<br>좌측 템플릿 분류에서 <strong>설치됨&gt;템플릿&gt;Visual C#&gt;웹</strong> 을 선택하고 중앙에서 <strong>ASP.NET 웹 응용프로그램</strong>을 선택.<br>하단에 프로젝트 이름으로 <strong>AngularJS1</strong> 를 입력하고 <strong>확인</strong>!</p>
+<p><img src="/images/16012501-새프로젝트.png" alt="새 프로젝트 창"></p>
+<p>이어서 <strong>새 ASP.NET 프로젝트</strong> 창이 뜨면 좌측에서 ASP.NET 5 템플릿을 선택하면 되는데… ASP.NET 5 템플릿 아래에는 <strong>Get ASP.NET 5 RC</strong> 라는 것만 있다. 클릭하면 ASP.NET 5 템플릿을 다운로드 한다. 약간의 시간이 걸린다.<br>다운로드가 완료되면 같은 곳에 <strong>Empty</strong>, <strong>Web API</strong>, <strong>Web Application</strong> 세가지 템플릿이 존재한다.</p>
+<p><img src="/images/16012501-새asp.net프로젝트.png" alt="새 ASP.NET 프로젝트 창"></p>
+<p>Web API를 선택하고 <strong>확인</strong>을 클릭하면 기본 WebAPI의 뼈대를 갖춘 프로젝트가 생성된다.</p>
+<p><img src="/images/16012501-프로젝트생성.png" alt="새 ASP.NET 프로젝트 창"></p>
+<h3 id="Scripts__uD3F4_uB354_uC640_Models__uD3F4_uB354_uB97C__uCD94_uAC00_uD558_uAE30"><a href="#Scripts__uD3F4_uB354_uC640_Models__uD3F4_uB354_uB97C__uCD94_uAC00_uD558_uAE30" class="headerlink" title="Scripts 폴더와 Models 폴더를 추가하기."></a>Scripts 폴더와 Models 폴더를 추가하기.</h3><p>우측 <strong>솔루션탐색기</strong>에서 프로젝트루트항목에 오른쪽 클릭하여 <strong>추가&gt;새폴더</strong> 를 통해</p>
+<p><img src="/images/16012501-프로젝트우클릭메뉴.png" alt="프로젝트 항목에서 우클릭 추가 &gt; 새폴더"></p>
+<p>모든 javascript 파일을 넣을 <strong>Scripts</strong> 라는 폴더와 ASP.NET MVC의 모델에 해당하는 클래스들을 넣어둘 <strong>Models</strong> 폴더를 루트폴더 아래에 미리 생성한다.</p>
+<p><img src="/images/16012501-폴더생성.png" alt="Scripts와 Models폴더를 생성"></p>
+<h3 id="uD328_uD0A4_uC9C0__uB9E4_uB2C8_uC800_uB97C__uC774_uC6A9_uD574__uD544_uC694_uD55C__uD328_uD0A4_uC9C0_uB4E4_uC744__uC124_uCE58_uD558_uAE30"><a href="#uD328_uD0A4_uC9C0__uB9E4_uB2C8_uC800_uB97C__uC774_uC6A9_uD574__uD544_uC694_uD55C__uD328_uD0A4_uC9C0_uB4E4_uC744__uC124_uCE58_uD558_uAE30" class="headerlink" title="패키지 매니저를 이용해 필요한 패키지들을 설치하기."></a>패키지 매니저를 이용해 필요한 패키지들을 설치하기.</h3><p>패키지 매니저 중 npm과 bower를 이용해서 패키지들을 설치한다.<br>먼저 npm을 이용해서 Grunt와 Grunt플러그인들을 설치한다.<br>프로젝트에 우클릭하고 <strong>추가&gt;새항목</strong> 을 실행하여 <strong>새 항목 추가</strong> 창을 띄운다.<br><strong>새 항목 추가</strong> 창의 왼쪽에 <strong>설치됨&gt;Client-side</strong>를 선택하고 중앙의 항목중 <strong>NPM 구성 파일</strong> 을 선택한다.</p>
+<p><img src="/images/16012501-npm구성파일선택.png" alt="npm 구성 파일 선택"></p>
+<p><strong>추가</strong> 버튼을 클릭하면 npm 구성파일인 package.json 파일이 프로젝트에 추가된다.<br>package.json 파일을 더블클릭하여 열고 애플리케이션에서 사용할 grunt, grunt-contrib-uglify, grunt-contrib-watch 세가지 패키지를 아래와 같이 추가한다.</p>
+<p><img src="/images/16012501-npm구성파일편집.png" alt="npm 구성 파일 선택"></p>
+<p>추가한 후 package.json 파일을 저장하게 되면 콘솔에서 npm install 한것 처럼 자동으로 패키지들이 설치되고 솔루션 탐색기의 <strong>종속성&gt;NPM</strong> 아래에 패키지들을 확인 할 수 있다.</p>
+<p><img src="/images/16012501-솔루션탐색기에 나타난 패키지들.png" alt="솔루션 탐색기의 npm 모듈들"></p>
+<p>실제로 윈도우 탐색기를 통해 확인해보면 프로젝트소스 루트 폴더아래에 node_modules 라는 폴더안에 패키지들이 설치되어 있다. </p>
+<p><img src="/images/16012501-설치된패키지들.png" alt="실제로 설치된 npm 모듈들"></p>
+<h3 id="Grunt__uC124_uC815_uD558_uAE30"><a href="#Grunt__uC124_uC815_uD558_uAE30" class="headerlink" title="Grunt 설정하기."></a>Grunt 설정하기.</h3><p>Grunt는 node.js로 만들어진 모듈로 애플리케이션의 Client 리소스들에 대하여 여러 작업들을 자동화할 수 있는 오픈소스 Javascript Task Runner이다.<br>즉 Client 파일들을 합치거나 축소시키거나 복사하는등의 개발/배포 과정에서 필요한 귀찮고 반복적인 작업들을 다양한 플러그인들을 이용해 명령어 한번으로 자동화 시킬 수 있는 도구이다.</p>
+<p>Scripts 폴더안에 있는 javascript 모든파일들을 합치고 축소시켜서 wwwroot 폴더아래에 app.js 파일로 생성할 수 있는 Grunt 설정을 해본다.</p>
+<p>솔루션 탐색기의 프로젝트에서 우클릭 <strong>추가&gt;새 항목</strong> 을 선택하여 <strong>새 항목 추가</strong> 창을 띄운다.<br><strong>새 항목 추가</strong> 창에서 우측 <strong>Client-side</strong>를 선택하고 중앙의 항목중 <strong>Grunt 구성파일</strong>을 선택하고 <strong>추가</strong> 버튼을 클릭한다.</p>
+<p><img src="/images/16012501-Grunt구성파일생성.png" alt="Grunt 구성파일 생성"></p>
+<p>생성된 <strong>gruntfile.js</strong> 를 아래와 같이 수정한다.</p>
+<p><img src="/images/16012501-gruntfile.png" alt="gruntfile.js"></p>
+<p>위의 gruntfile은 크게 세부분으로 이루어져있다.<br>첫번째 부분은 grunt.loadNpmTasks 로 npm을 통해 설치했던 Grunt 플러그인들을 로딩하는 부분이다.<br>두번째 부분은 grunt.initConfig 로 각 플러그인들의 실행에 관련된 설정을 해주는 부분으로<br>uglify 는 Scripts 폴더의 app.js 와 그 하위폴더를 포함한 모든 파일들을 wwwroot 안에 app.js 로 합쳐서 축소시킨다.<br>watch 는 Scripts 폴더안의 파일들을 지켜보다가 변경 사항이 발생하면 uglify 플러그인을 실행한다.<br>세번째 부분은 grunt.registerTask 로 하나의 Task에서 실행할 플러그인들을 지정하여 grunt task 를 등록하는 부분이다.<br>‘default’라는 이름의 task에 uglify와 watch 플러그인을 등록했다.</p>
+<p>gruntfile.js 를 저장하고 Visual Studio의 상단메뉴중 <strong>보기&gt;다른 창&gt;작업 러너 탐색기</strong>를  선택하여 작업 러너 탐색기 창을 열어보면 다음과 같이 grunt 작업을 볼 수 있다. 만약 작업들이 안보인다면 작업 러너 탐색기 좌상단의 리프레쉬 버튼을 클릭한다.</p>
+<p><img src="/images/16012501-작업러너탐색기.png" alt="작업 러너 탐색기"></p>
+<p><strong>default</strong> 작업위에 우클릭 <strong>실행</strong> 을 선택해서 작업을 실행해 보면 아직 Scripts 폴더아래에 파일이 없기 때문에 아래와 같은 출력을 볼 수 있다.</p>
+<p><img src="/images/16012501-작업실행1.png" alt="작업실행-Scripts 폴더아래 작업을 실행할 파일이 없다"></p>
+<h3 id="uBAA8_uB378__uCD94_uAC00_uD558_uAE30"><a href="#uBAA8_uB378__uCD94_uAC00_uD558_uAE30" class="headerlink" title="모델 추가하기."></a>모델 추가하기.</h3><p>위에서 만든 Models 라는 폴더에 우클릭 <strong>추가&gt;클래스</strong>를 선택하여 “DOTAHero”라는 클래스를 추가 하고 아래와 같이 편집한다.</p>
+<p><img src="/images/16012501-dotahero.png" alt="DOTAHero.cs"></p>
+<p>한번 더 같은 Models 폴더에 “HeroManager” 라는 클래스를 추가하고 아래와 같이 편집한다.</p>
+<p><img src="/images/16012501-heromanager.png" alt="HeroManager.cs"></p>
+<p>HeroManager 클래스는 다음을 포함한다.</p>
+<ul>
+<li>readonly property 로 정의된 hero들의 리스트(실제로 데이터베이스에서 가져와야할 테지만 예제이므로 간단히 스태틱한 리스트로 정의한다.)</li>
+<li>모든 히어로를 반환하는 GetAll property</li>
+<li>특정 type의 히어로 리스트를 반환하는 GetHeroesByType() 메소드</li>
+<li>특정 ID를 갖는 히어로를 반환하는 GetHeroByID() 메소드</li>
+</ul>
+<h3 id="Web_API_Heroes_Controller__uCD94_uAC00_uD558_uAE30"><a href="#Web_API_Heroes_Controller__uCD94_uAC00_uD558_uAE30" class="headerlink" title="Web API Heroes Controller 추가하기."></a>Web API Heroes Controller 추가하기.</h3><p>Controllers 폴더에 우클릭 <strong>추가&gt;새 항목</strong>  을 선택하여 <strong>새 항목 추가</strong> 창을 띄운다.<br>좌측에 Server-side 를 선택하고 중앙의 항목중 <strong>Web API 컨트롤러 클래스</strong> 를 선택하고 이름을 <strong>HeroesController.cs</strong> 로 입력한후 <strong>추가</strong>버튼을 클릭한다.</p>
+<p><img src="/images/16012501-heroescontroller추가.png" alt="HeroesController.cs 추가"></p>
+<p>Controllers 폴더아래에 추가된 HeroesController.cs 파일을 연다.<br>상단 using 문에 위에서 추가한 모델 네임스페이스를 추가하고 아래 api 구현 부분의 기본내용을 아래와 같이 편집한다.</p>
+<p><img src="/images/16012501-heroescontroller.png" alt="HeroesController.cs"></p>
+
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.80xer.com/2016/01/25/asp-net5-and-angular-js/" data-id="cijto7m9m0001m8j3qt3bd9yt" class="article-share-link">Share</a>
+      <a data-url="http://blog.80xer.com/2016/01/25/asp-net5-and-angular-js/" data-id="cijuptij30000eoj3meb1ju5a" class="article-share-link">Share</a>
       
       
     </footer>
@@ -133,7 +176,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://blog.80xer.com/2016/01/25/hexo-on-github-page/" data-id="cijto7m8l0000m8j3ij83kuun" class="article-share-link">Share</a>
+      <a data-url="http://blog.80xer.com/2016/01/25/hexo-on-github-page/" data-id="cijuptiji0001eoj35q0h18vd" class="article-share-link">Share</a>
       
       
     </footer>
@@ -170,7 +213,7 @@
       <ul>
         
           <li>
-            <a href="/2016/01/25/asp-net5-and-angular-js/">Microsoft Visual Studio Community 2015 에서 ASP.NET 5, Web API, Angular.js, Grunt, Bower 사용하기</a>
+            <a href="/2016/01/25/asp-net5-and-angular-js/">Microsoft Visual Studio Community 2015 에서 ASP.NET 5, Web API, Angular.js, Grunt, Bower 사용하기(업데이트중)</a>
           </li>
         
           <li>
