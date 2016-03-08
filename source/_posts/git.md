@@ -1,4 +1,4 @@
-title: Git과 Github (업데이트중)
+title: Git과 Gitlab
 date: 2016-02-02 13:21:28
 tags: git, github
 ---
