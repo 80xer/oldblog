@@ -124,7 +124,7 @@ body,
 }
 body {
   background: #eee;
-  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 20px sans-serif;
   -webkit-text-size-adjust: 100%;
 }
 .outer {
@@ -179,7 +179,7 @@ body {
 .mobile-nav-on #wrap {
   left: 280px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1101px) {
   #main {
     display: inline;
     float: left;
@@ -408,9 +408,9 @@ body {
 .nav-icon {
   font-family: FontAwesome;
   text-align: center;
-  font-size: 14px;
-  width: 14px;
-  height: 14px;
+  font-size: 20px;
+  width: 20px;
+  height: 20px;
   padding: 20px 15px;
   position: relative;
   cursor: pointer;
@@ -484,7 +484,7 @@ body {
   background: none;
   color: #555;
   width: 100%;
-  font: 13px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 13px sans-serif;
   outline: none;
 }
 .search-form-input::-webkit-search-results-decoration,
@@ -631,9 +631,9 @@ a.article-title:hover {
   text-align: center;
 }
 .article-entry blockquote footer {
-  font-size: 14px;
+  font-size: 20px;
   margin: 1.6em 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: sans-serif;
 }
 .article-entry blockquote footer cite:before {
   content: "—";
@@ -751,7 +751,7 @@ a.article-title:hover {
 #article-nav:after {
   clear: both;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1101px) {
   #article-nav {
     margin: 50px 0;
   }
@@ -785,20 +785,20 @@ a.article-title:hover {
 .article-nav-link-wrap:hover {
   color: #555;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1101px) {
   .article-nav-link-wrap {
     width: 50%;
     margin-top: 0;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1101px) {
   #article-nav-newer {
     float: left;
     text-align: right;
     padding-right: 20px;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1101px) {
   #article-nav-older {
     float: right;
     text-align: left;
@@ -841,7 +841,7 @@ a.article-title:hover {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 14px sans-serif;
   padding: 0 15px;
   color: #555;
   outline: none;
@@ -979,14 +979,14 @@ a.article-title:hover {
   -moz-column-gap: 10px;
   column-gap: 10px;
 }
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 480px) and (max-width: 1100px) {
   .archives {
     -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1101px) {
   .archives {
     -webkit-column-count: 3;
     -moz-column-count: 3;
@@ -1109,7 +1109,7 @@ a.article-title:hover {
   border-width: 1px 0;
   overflow: auto;
   color: #ccc;
-  line-height: 22.400000000000002px;
+  line-height: 32px;
 }
 .article-entry .highlight .gutter pre,
 .article-entry .gist .gist-file .gist-data .line-numbers {
@@ -1165,7 +1165,7 @@ a.article-title:hover {
   padding-right: 20px;
 }
 .article-entry .highlight .line {
-  height: 22.400000000000002px;
+  height: 32px;
 }
 .article-entry .gist {
   margin: 0 -20px;
@@ -1200,7 +1200,7 @@ a.article-title:hover {
 .article-entry .gist .gist-file .gist-meta {
   background: #2d2d2d;
   color: #999;
-  font: 0.85em "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 0.85em sans-serif;
   text-shadow: 0 0;
   padding: 0;
   margin-top: 1em;
@@ -1292,7 +1292,7 @@ pre .javascript .function {
     color: #fff;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1101px) {
   #sidebar {
     display: inline;
     float: left;
