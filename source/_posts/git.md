@@ -1,4 +1,4 @@
-title: Git과 Gitlab
+title: Git (게으르게 업데이트중...)
 date: 2016-02-02 13:21:28
 tags: git, gitlab
 ---
@@ -414,6 +414,16 @@ Merge made by the 'recursive' strategy.
 
 ### 원격 리포지토리
 #### 원격 리포지토리 생성
+자체 git서버 혹은 git 호스팅 서비스를 이용(github, gitlab, bitbucket 등)하여 원격 저장소를 생성한다.
+README.md 를 생성하지 않는다.
+
+원격저장소에 접근하기 위한 프로토콜중 https 를 이용.
+로컬저장소에서 원격저장소의 https 주소를 등록한다.
+
+```
+    git remote add origin https://github.com/유저명/저장소명.git
+```    
+
 #### 원격 리포지토리로 전송하기
 #### 원격 리포지토리 받아오기
 #### 원격 리포지토리 최신 내역 받아오기
